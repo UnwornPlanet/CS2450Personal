@@ -5,7 +5,7 @@ guess=False
 while guess==False:
     guess=random.randint(15,30)
     user_response=input("Are you "+str(guess)+" years old?")
-    if user_response=="y" or user_response=="Y":
+    if user_response.strip()=="y" or user_response.strip()=="Y":
         print("{name} is {guess} years old!")
         quit()
     else:
