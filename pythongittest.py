@@ -9,4 +9,4 @@ while guess==False:
         print("{name} is {guess} years old!")
         quit()
     else:
-        print("Im so sorry")
+        print("Im sorry")
